@@ -53,7 +53,7 @@ final class DestinationUITests: XCTestCase {
 	}
 
 	func testRootPresentingDestinationOverPath() throws {
-		if #available(iOS 16.1, *) {} else if #available(iOS 16.0, *) {
+		if #available(iOS 16.1, *) {} else if #available(iOS 17.0, *) {
 			throw XCTSkip("Broken in iOS 16.0, fixed in iOS 16.1")
 		}
 
